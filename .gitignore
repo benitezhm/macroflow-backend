@@ -8,3 +8,16 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+
+# Local environment and editor files.
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Build and release artifacts.
+/tmp/
+/priv/static/assets/
+/rel/overlays/bin/server
+/rel/overlays/bin/server.bat
+macroflow-*.tar
